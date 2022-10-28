@@ -1,0 +1,11 @@
+data_path: "/ctm-hdd-pool01/DB/mammography/INbreast/"
+save_path: "/nas-ctm01-homes/emcastro/datasets/inbreast_test/"
+image_target_height: 1152
+#image_target_height: 1536
+image_adjust_range: "max_value"
+train_test_split: "standard"
+train_val_split: 0.15
+random_seed: 1984
+n_bk_points: 10
+with_elastic: False
+only_train: False

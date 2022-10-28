@@ -1,0 +1,9 @@
+data_path: "/media/emcastro/External_drive/datasets/CBIS-DDSM/"
+save_path: "/home/emcastro/datasets/cbis_preprocessed5/"
+image_target_height: 1152
+#image_target_width: 800
+image_adjust_range: "max"
+train_test_split: "standard"
+train_val_split: 0.15
+random_seed: 1984
+n_bk_points: 1

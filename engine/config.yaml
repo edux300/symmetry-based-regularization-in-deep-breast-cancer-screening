@@ -1,0 +1,27 @@
+# This is the standard configuration for yaml files
+
+# results path
+model_path: "/home/emcastro/results/Detection_attention/MaskRCNN.pth"
+logs_path: "/home/emcastro/results/Detection_attention/logs/"
+
+# model params
+num_classes: 5
+
+# training params
+epochs: 100
+device: "cuda:0"
+
+# optimizer params
+learning_rate: 0.001
+momentum: 0.9
+weight_decay: 0.0001
+
+# lr_sheduler params step decay with warmup
+sheduler_warmup_iters: 1000
+sheduler_step_iters: 10000
+
+# data
+#train_data_path: "/home/emcastro/datasets/debug/"
+#valid_data_path: "/home/emcastro/datasets/debug/"
+train_data_path: "/home/emcastro/datasets/train_cbis_processed/"
+valid_data_path: "/home/emcastro/datasets/test_cbis_processed/"
