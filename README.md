@@ -6,3 +6,5 @@ To reproduce results on a different system, the paths for the location of the da
 Scripts used to train and evaluate are provided in "examples/works_in_regularization/"
 
 If you have any trouble reproducing the experiments in the paper, or if you notice any file missing let us know by creating an issue.
+
+More details will be added on this page after publication.
