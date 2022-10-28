@@ -1,2 +1,2 @@
-# symmetry-based-regularization-in-deep-breast-cancer-screening
-This repository contains all the code used for the experiments of the paper Symmetry-based regularization in deep breast cancer screening (under review)
+# Symmetry-based Regularization in Deep Breast Cancer Screening
+This repository contains all the code used for the experiments of the paper Symmetry-based Regularization in Deep Breast Cancer Screening (currently under review)
